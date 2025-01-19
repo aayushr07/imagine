@@ -20,9 +20,9 @@ export default function Navbar() {
         {/* Desktop Menu */}
         <div className="hidden md:flex space-x-6 items-center">
           <Link href="/" className="hover:text-indigo-500 text-black transition-all duration-300">Home</Link>
-          <Link href="/#categories" className="hover:text-indigo-500 text-black transition-all duration-300">Feeding cycle</Link>
+          <Link href="/feeding" className="hover:text-indigo-500 text-black transition-all duration-300">Feeding cycle</Link>
           <Link href="/about" className="hover:text-indigo-500 text-black transition-all duration-300">About</Link>
-          <Link href="/ourteam" className="hover:text-indigo-500 text-black transition-all duration-300">Consultaion</Link>
+          <Link href="/consultation" className="hover:text-indigo-500 text-black transition-all duration-300">Consultaion</Link>
           <Link href="/contact" className="hover:text-indigo-500 text-black transition-all duration-300">Contact</Link>
 
           {/* Search Bar */}
@@ -70,7 +70,7 @@ export default function Navbar() {
           <Link href="/" className="block text-black hover:text-indigo-500">Home</Link>
           <Link href="/#categories" className="block text-black hover:text-indigo-500">Categories</Link>
           <Link href="/about" className="block text-black hover:text-indigo-500">About</Link>
-          <Link href="/ourteam" className="block text-black hover:text-indigo-500">Our Team</Link>
+          <Link href="/consultation" className="block text-black hover:text-indigo-500">Our Team</Link>
           <Link href="/contact" className="block text-black hover:text-indigo-500">Contact</Link>
           
 
